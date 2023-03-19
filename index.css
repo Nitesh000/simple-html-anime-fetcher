@@ -1,0 +1,20 @@
+.cardHolders {
+  display: flex;
+  overflow-x: scroll;
+  height: 400px;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.card img {
+  aspect-ratio: auto;
+  height: 250px;
+  border-radius: 7px;
+  border: 2px limegreen solid;
+}
